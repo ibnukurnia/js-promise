@@ -16,7 +16,7 @@ searchBar.addEventListener("keyup", (e) => {
 const getData = async () => {
   try {
     const response = await fetch(
-      "https://newsapi.org/v2/top-headlines?country=id&apiKey=d09d1ba2a8984ab6a7065777183d7a08"
+      "https://newsapi.org/v2/top-headlines?country=id&apiKey=d22612e9ee684aa3807ab9068737748a"
     );
     news = response.data.articles;
     displayNews(news);
