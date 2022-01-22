@@ -1,9 +1,17 @@
-@media (min-width: 576px) {
+:root {
+  --body: #35858b;
+}
+
+body {
+  background-color: var(--body);
+}
+
+/* @media (min-width: 576px) {
   .card img {
     width: 300px;
     height: 350px;
   }
-}
+} */
 
 @media (min-width: 768px) {
   .card img {
